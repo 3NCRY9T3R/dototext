@@ -1,7 +1,7 @@
 import numpy as np
 from PIL import Image
 
-base ='fonts/'
+base ='file/'
 def make_image(list1,count):
  imgs    = [ Image.open(i) for i in list1 ]
  #min_shape = sorted( [(np.sum(i.size), i.size ) for i in imgs])[0][1]
